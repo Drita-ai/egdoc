@@ -1,15 +1,18 @@
 import path from "path";
 
-import { DocxInfo } from "./egpdf/docx-extract/docxInfo";
+import { DocxDataExtractor } from "./egpdf/docx-extract/docxDataExtractor";
 
-const docxPath = path.join(__dirname, "dev-data/nlp_word_extractor_demo.docx");
+const docxPath = path.join(__dirname, "dev-data/a.docx");
 
-try {
-  new DocxInfo(docxPath);
-} catch (err) {
-  if (err instanceof Error) {
-    console.error("Client-facing error:", err.message);
-  } else {
-    console.error("Client-facing error:", err);
+(async () => {
+  try {
+    const extractor = new DocxDataExtractor(docxPath);
+    await extractor.init();
+  } catch (err) {
+    if (err instanceof Error) {
+      console.error("Client-facing error:", err.message);
+    } else {
+      console.error("Client-facing error:", err);
+    }
   }
-}
+})();
