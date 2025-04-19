@@ -1,6 +1,6 @@
 import path from "path";
 
-import { DocxDataExtractor } from "./egpdf/docx-extract/docxDataExtractor";
+import { DocxDataExtractor } from "./egdocx/docx-extract/docxDataExtractor";
 
 const docxPath = path.join(__dirname, "dev-data/a.docx");
 
