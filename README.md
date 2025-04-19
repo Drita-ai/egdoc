@@ -3,7 +3,7 @@
 Welcome to the magical world of Word docs—where `[HEADER]`, `[BP]`, and `!!!` actually mean something!  
 This project takes your docx files and turns them into beautifully structured JSON—like Marie Kondo but for text.
 
-![magic](https://media.giphy.com/media/3o6MbaME1Lz4J6Zz5u/giphy.gif)
+![magic](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWswejM1dHprdXVndXJwaHBzcnBhd282Njc5c3lvc3dsMTdhM3R6dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oVvhEYvWDvE1G/giphy.gif)
 
 ## 🚀 What It Does
 
