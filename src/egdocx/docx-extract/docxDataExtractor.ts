@@ -1,17 +1,7 @@
 import { DocxInfo } from "./docxInfo";
 import WordExtractor from "word-extractor";
 
-// TYPES for CONTENTS extracted
-type SectionContent =
-  | { type: "paragraph"; content: string }
-  | { type: "bullet"; content: string[] };
-
-type Section = {
-  heading: string | undefined;
-  content: SectionContent[];
-};
-
-type Page = Section[];
+import { Page, Section } from '../types/types';
 
 export class DocxDataExtractor extends DocxInfo {
   public content: string = "";
