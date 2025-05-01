@@ -29,7 +29,7 @@ export class DocxDataExtractor extends DocxInfo {
   }
 
   // GET Structured Content
-  public get structuredContent(): ReadonlyArray<Page> {
+  public get structuredContent(): Page[] {
     return this._structuredContent;
   }
 
